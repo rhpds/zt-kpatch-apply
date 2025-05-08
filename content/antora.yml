@@ -1,0 +1,9 @@
+---
+name: modules
+version: master
+
+asciidoc:
+  attributes:
+    lab_name: "Reduce unplanned maintenance with Kernel live patching"
+    release-version: master
+    page-pagination: true
