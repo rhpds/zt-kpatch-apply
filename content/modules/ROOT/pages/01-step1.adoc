@@ -13,6 +13,13 @@ organizations can apply to their running Red Hat Enterprise Linux
 systems to update the system without scheduling a system downtime to
 apply a kernel update to address the CVE.
 
+For ease of use with this lab, we will elevate your user privileges.
+
+[source,bash,run]
+----
+sudo su
+----
+
 To get started, install the `+kpatch+` package:
 
 [source,bash,run]
