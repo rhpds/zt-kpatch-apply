@@ -38,7 +38,7 @@ others listed, like `+kpatch-patch-5_14_0-570_17_1.x86_64+`.
 
 [source,bash,run]
 ----
-dnf list available kpatch-patch*570_17_1.x86_64
+dnf list available kpatch-patch*
 ----
 
 These kpatches are for another kernel, specifically, version 5.14.0-162. You
