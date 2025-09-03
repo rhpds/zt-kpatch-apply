@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# WHarris workaround for EPEL 10 being added to RHEL 9 machines from Satellite issue
+subscription-manager repos --disable=Red_Hat_RHDP_Labs_Extra_Packages_for_Enterprise_Linux_EPEL_10
+
 echo "exclude=kernel*" >> /etc/yum.conf
 
 #set up tmux so it has to restart itself whenever the system reboots
