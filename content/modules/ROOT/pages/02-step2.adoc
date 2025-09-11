@@ -15,7 +15,7 @@ uname -r
 ----
 
 Our lab system is running kernel version (also known as release, hence
-the -r option used by uname) kpatch-patch-5_14_0-570_17_1.x86_64.
+the -r option used by uname) kpatch-patch-5_14_0-427_31_1.x86_64.
 
 Now that you know the version of the kernel running on the lab machine,
 look at all of the aviailable kpatch packages avaiable from the Red Hat
@@ -23,18 +23,18 @@ Enterprise Linux repos.
 
 [source,bash,run]
 ----
-dnf list available kpatch-patch*570_17_1.x86_64
+dnf list available kpatch-patch-*427_31_1.x86_64
 ----
 
 From the above output, there are several different kpatch-patch patches
 available, but only one of them is the one intended for the kernel
 running on your system. The one needed for your system is
-`+kpatch-patch-5_14_0-570_17_1.x86_64+` because it is the latest
+`+kpatch-patch-5_14_0-427_31_1.x86_64+` because it is the latest
 available for the version of your kernel reported by `+uname -r+`,
-specifically, 5.14.0-503.11.1.el9_5.
+specifically, 5.14.0-427.13.1.el9_4.x86_64.
 
 If you looked at all available `+kpatch-patch+` packages, you would see
-others listed, like `+kpatch-patch-5_14_0-570_17_1.x86_64+`. 
+others listed, like `+kpatch-patch-5_14_0-427_31_1.x86_64+`. 
 
 [source,bash,run]
 ----
