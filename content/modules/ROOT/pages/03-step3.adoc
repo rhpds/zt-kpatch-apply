@@ -15,5 +15,5 @@ dnf -y install "kpatch-patch = $(uname -r)"
 ----
 
 The previous `+dnf+` command, based on the result of the embedded uname
--r command, installed kpatch-patch-5_14_0-362_8_1, which is what you had
+-r command, installed kpatch-patch-5_14_0-427_31_1, which is what you had
 determined on the previous step to be the patchset for this system.
