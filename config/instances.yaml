@@ -1,6 +1,6 @@
 virtualmachines:
   - name: "rhel"
-    image: "rhel-9.5"
+    image: "rhel-9.6"
     memory: "4G"
     cores: 1
     image_size: "40G"
@@ -8,6 +8,7 @@ virtualmachines:
       - git
       - cockpit
       - tmux
+      - vim
     tags:
       - key: "AnsibleGroup"
         value: "bastions"
