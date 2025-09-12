@@ -11,9 +11,6 @@ referenced for the changelog is the one you installed earlier.
 rpm -q --changelog $(rpm -qa | grep kpatch-patch)
 ----
 
-In the above sample output, you can see that the latest entry, the first
-one listed, in the patchset was to resolve CVE-2023-32233.
-
 == Supporting Kernel Live Patches
 
 Red Hat will maintain a patchset for Extended Update Support (EUS)
